@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        int y = 10;
         for(int i = 0;i<50;i++){
             datas.add("你好"+i);
         }
